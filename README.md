@@ -1,6 +1,6 @@
 # Ramekin Hello World example
 
-A Go program that prints "Hello World", packaged with [Ramekin](https://github.com/ascension-association/ramekin) for a gokrazy device using a persistent overlay. This is the project from Ramekin's quick start.
+A Go program that prints "Hello World", packaged with [Ramekin](https://github.com/ascension-association/ramekin) for a gokrazy device using a persistent overlay. This is the project from the Persistent Overlay Example in Ramekin's README.
 
 - `main.go` is the program. It prints its greeting and keeps running until the device stops it.
 - `ramekin.yaml` is the Ramekin project in overlay mode: the wolfi-base image, plus whatever `ramekin shell` adds to `overlay.img`, running `/usr/bin/hello`. It publishes to this repository's [releases](https://github.com/ascension-association/ramekin-hello-world-example/releases); `hello-world/stable.json` on this branch is the signed channel pointer devices poll.
